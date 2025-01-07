@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Steps to create a new React Project:
 -npm create vite@latest
 -cd newproject
@@ -15,4 +16,23 @@ content: [
 -and this one to index.css
 @tailwind base;
 @tailwind components;
+=======
+Steps to create a new React Project:
+-npm create vite@latest
+-cd newproject
+-npm i
+-npm run dev
+
+to add tailwind css:
+-npm install -D tailwindcss postcss autoprefixer
+-npx tailwindcss init -p
+- add this to tailwind.config.js
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+-and this one to index.css
+@tailwind base;
+@tailwind components;
+>>>>>>> f2b672c683c6d539c795088638b127ebc0b5cae3
 @tailwind utilities;
