@@ -27,7 +27,7 @@ function App() {
     passwordGenerator()
   }, [length, numberAllowed, charAllowed, passwordGenerator])
 
-  //useRef hook -->to refer to a particular state, field
+  //useRef hook --> to refer to a particular state, field
   const passwordRef = useRef(null)
 
   const copyPasswordToClipbaord = useCallback(() => {
