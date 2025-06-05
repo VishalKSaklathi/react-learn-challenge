@@ -12,12 +12,13 @@ export const todoContext = createContext({
     updateTodo: (id, todo) => { },
     deleteTodo: (id) => { },
     toggleComplete: (id) => { }
-});
-// create a procider
-export const todoProvider = todoContext.Provider
+})
+
 //create a hook to accesse properties and methods
-export default function useToDo() {
+export const useTodo = () => {
     return useContext(todoContext)
 }
 
+// create a provider
+export const TodoProvider = todoContext.Provider
 
