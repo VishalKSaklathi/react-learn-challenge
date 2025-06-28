@@ -62,7 +62,7 @@ function App() {
               Clear All Todos
             </button>
           </div>
-          <h1 className="text-2xl font-bold text-center mb-8 mt-2">Your Todos</h1>
+          <h1 className="text-2xl font-bold text-center mb-8 mt-2">My Todos</h1>
           <div className="mb-4">
             {/* Todo form goes here */}
             <TodoForm />
